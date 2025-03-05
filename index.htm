@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Ten-Tec Omni 6</title>
+    </head>
+
+    <body style="background-color:rgb(178, 232, 240);">
+
+        <hr style="border: 1px solid rgb(27, 8, 134); width: 90%;">
+        <p style="text-align:center;font-family:tahoma;font-size:300%;">
+            <strong>
+            Restoration of a TEN-TEC Omni VI
+            </strong>
+        </p>
+        <hr style="border: 1px solid rgb(27, 8, 134); width: 90%;">
+
+        
+        <p style="font-family:tahoma;font-size:140%;">
+            The Ten-Tec Omni VI is an HF Transceiver for the 160 through 10 metre WARC bands. It was designed by US company
+            Tennessee Technology Inc. in the 1990s and at the time had a list price of $2585. It is still considered by
+            some enthusiasts to have unmatched receive performance, particularly in CW mode. The model for restoration was
+            purchased for £200, described as almost complete and working, but requiring full re-alignment
+            (which could hide a multitude of problems!).
+            <br>
+            <br> From the operator's manual:
+            
+            <blockquote style="font-family:tahoma;font-size:120%;">
+            <i>
+                OMNI VI is the culmination of two decades of engineering in high performance HF transceivers. 
+                It features an advanced phase locked loop synthesizer combined with an oven controlled crystal
+                oscillator for superior phase noise performance and stability. A large LED display is used
+                for ease of viewing the operating frquency. Two smaller displays for a 24 hour clock and RIT/XIT offset.
+                The OMNI VI also provides 100 duplex memories, scratch pad memory, band registers, dual VFOs,
+                direct frequency entry and a built-in Iambic keyer.
+                <br>
+                The OMNI VI covers all bands 160 through 10 meters, using CW (with full or semi break-in),
+                SSB (with built-in speech processor), RTTY (true FSK or AFSK) and FM. Optional crystal filters can be
+                installed in both the 6.3 MHz and 9 MHz IFs. Also included is automatic notch filter provided by a DSP
+                processor, a programmable CW transmit offset, and a CW digital lowpass filter. Remote control of many of the 
+                transceiver functions is possible via a serial interface.
+                <br>
+            </i>
+            </blockquote>
+        <p style="font-family:tahoma;font-size:140%;">
+            Quite impressive for the 1990s.
+            The image on the right is from a dedicated Ten-Tec enthusiast (regretably not mine).
+        </p>
+        
+        <img title = "Omni VI" src="Omni_6-1.webp" alt="Ten-Tec Omni 6" width="600" height="350">
+        <img title = "Omni VI" src="Omni_6-2.webp" alt="Ten-Tec Omni 6" width="600" height="350">
+        <img title = "G3TXQ" src="G3TXQ.jpg" alt="Ten-Tec Omni 6" width="600" height="350">
+
+        <p style="font-family:tahoma;font-size:160%;">
+            <a href="https://www.rigpix.com/tentec/omnivi.htm">Specifications can be found here</a>
+            <br>
+            <a href="https://www.qsl.net/t/tentec//specs/563.jpg">Sales leaflet can be found here</a>
+            <br>
+            <a href="https://www.tentec.com/wp-content/uploads/2016/05/Model_563_Omni_VI_Manualc964.pdf">
+                Operator's Manual can be found here (13.2 MB)</a>
+            <br>
+            <a href="https://ia800700.us.archive.org/1/items/The_Radio_Ham_Starring_Tony_Hancock_English_Comedy/The_Radio_Ham_Starring_Tony_Hancock_English_Comedy.mp4">
+                Video can be found here</a>         
+        </p>
+        <br>
+
+        <hr style="border: 1px solid rgb(27, 8, 134); width: 90%;">
+
+        <p style="font-family:tahoma;font-size:140%;">
+            <strong>Part 1. The Logic Board</strong>
+            <br>
+            As an embedded Software Engineer, this is of particular interest. It uses an 80C32 microprocessor operating at
+            20 MHz,  with 32K EPROM and 8K battery backed RAM, and a 2105 DSP processor with a serial CODEC to provide the
+            automatic notch filter. A 20 MHz oven controlled crystal oscillator provides the reference frequency for the 
+            transceiver. This was the first problem - due do age the crystal had "cooked out" and was off frequency and unstable.
+            An exact replacement part is no longer available as it was made from unobtainium. A newer device would certainly
+            work but would not fit in the space available on the logic board.
+        </p>
+
+        <img title = "Logic Board" src="Logic_Board_1.jpg" alt="Logic Board" width="800" height="500">
+
+        <p style="font-family:tahoma;font-size:140%;">
+            Using today's technology most of this board could be replaced with a single IC.
+        </p>
+
+        <br>
+        <hr style="border: 1px solid rgb(27, 8, 134); width: 90%;">
+
+        <p style="font-family:tahoma;font-size:140%;">
+            <strong>Part 2. Replacement 10 MHz OCXO on new PCB</strong>
+            <br>
+            <strong>Part 3. DSP Clock Problem</strong>
+            <br>
+            <strong>Part 4. PLL Re-alignment</strong>
+            <br>
+            <strong>Part 5. Band Pass Tuning Board Adjustment</strong>
+            <br>
+            <strong>Part 6. Possible Replacement of PLL Board by DDS Module</strong>
+            <br>
+            <strong>Part 7. To Be Continued ...... </strong>
+
+        </p>
+
+        <p>
+            References:<br>
+            www.eHam.net, www.rigpix.com, www.qsl.net<br>
+            www.karinya.net/g3txq/<br>
+            www.archive.org/details/The_Radio_Ham_Starring_Tony_Hancock_English_Comedy<br>
+            OMNI VI Model 563 HF Transceiver Operator's Manual - TEN-TEC Inc.
+          
+        </p>
+
+     
+        
+    </body>
+</html>
